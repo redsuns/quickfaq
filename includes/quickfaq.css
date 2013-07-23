@@ -1,0 +1,3 @@
+.faq li a h4 {background: #666; padding: 10px 20px; border-radius: 4px; color: #fff; margin-bottom: 10px; }
+.faq li .answer {background: #E4DECE !important; padding: 10px !important; border-radius: 4px !important; margin-bottom: 10px;}
+.faq a:visited, .faq a:link{text-decoration: none;}
