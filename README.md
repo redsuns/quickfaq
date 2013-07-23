@@ -1,0 +1,4 @@
+quickfaq
+========
+
+QuickFaq wordpress plugin
