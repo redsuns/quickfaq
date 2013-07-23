@@ -1,0 +1,27 @@
+{
+    "name": "redsuns/quickfaq",
+    "description": "Quick FAQ",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "wordpress",
+        "faq"
+    ],
+    "authors": [
+        {
+            "name": "Redsuns",
+            "homepage": "http://redsuns.com.br",
+            "role": "Author"
+        },
+        {
+            "name": "Andre Cardoso",
+            "homepage": "http://andrebian.com",
+            "role": "Contributor"
+        }
+    ],        
+    "homepage": "https://github.com/redsuns/quickfaq",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "*"        
+    }        
+}
