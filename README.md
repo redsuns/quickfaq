@@ -17,3 +17,9 @@ Clone this plugin into your wp-content/plugin folder
 Via composer
 ------------
 `"require": {"redsuns/quickfaq": "dev-master"}`
+
+
+Contributors
+============
+
+Rafael Funchal - https://github.com/rafaelfunchal
