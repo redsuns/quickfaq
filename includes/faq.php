@@ -5,13 +5,15 @@
  */
 function show_faq()
 {
+	wp_reset_query();
 	$faqs_args = array(
 	                   'post_type' => 'faq',
 	                   'orderby' => 'post_date',
-	                   'order' => 'ASC'
+	                   'order' => 'ASC',
+                       'limit' => -1
 	                   );
 
-    $faqs = get_posts( $faqs_args );
+    $faqs = query_posts($faqs_args);
 
     if ( !empty( $faqs ) ) : ?>
         <div class="faq">
