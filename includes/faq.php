@@ -23,7 +23,7 @@ function show_faq()
                         <div class="content" id="<?php echo $faq->ID; ?>">
                             <a href="#" class="content-link" id="<?php echo $faq->ID; ?>"><h4><?php echo $faq->post_title; ?></h4></a>
                             <div class="answer" id="content_<?php echo $faq->ID; ?>">
-                                <p><?php echo $faq->post_content; ?></p>
+                                <p><?php echo apply_filters('the_content', $faq->post_content); ?></p>
                             </div>
                         </div>
                     </li>
